@@ -15,6 +15,17 @@
             margin: 0;
             margin-top: 50px;
         }
+        button{
+            margin-bottom: 20px;
+            width: 15%;
+            border-radius: 10px;
+            background-color: blueviolet;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 5px;
+            box-shadow: 5px 5px 5px #ccc;
+        }
         canvas{
             box-shadow: 30px 20px 20px #ccc;
         }
@@ -22,6 +33,7 @@
 </head>
 <body>
     <h1>SNAKE Game</h1>
+    <button onclick="yeniOyun()">yeni oyun</button>
     <canvas id="game" width="400" height="400" ></canvas>
 
     <script src="./game.js"></script>
